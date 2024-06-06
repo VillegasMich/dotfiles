@@ -1,0 +1,10 @@
+chosen_layout=$(echo -e "us\nes" | dmenu -i -p "Select keyboard layout")
+
+# Check for "us" OR "es" layout
+if [ "$chosen_layout" == "us" ] || [ "$chosen_layout" == "es" ]; then
+  # Set the keyboard layout based on the chosen option
+  setxkbmap "$chosen_layout"
+else
+  # Handle invalid choices (optional)
+  echo "Invalid keyboard layout chosen."
+fi
