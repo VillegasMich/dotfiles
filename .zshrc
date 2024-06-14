@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias le="exa -l -a --icons"
+alias le="exa -l -a --icons --group-directories-first"
 alias emoji="jome"
 eval "$(starship init zsh)"
 

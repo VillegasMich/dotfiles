@@ -1,5 +1,7 @@
+".wezterm.lua" = "~/.wezterm.lua"
 ".zshrc" = "~/.zshrc"
 "starship.toml" = "~/.config/starship.toml"
 "picom.conf" = "~/.config/picom.conf"
-".wezterm.lua" = "~/.wezterm.lua"
+Wallpapers = "~/Pictures/Wallpapers"
 i3 = "~/.config/i3"
+nvim = "~/.config/nvim"
