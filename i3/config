@@ -412,7 +412,7 @@ exec --no-startup-id dex --autostart --environment i3
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 # exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/eos_wallpapers_community/endeavour_os_simple_wallpaper_dark.png
-exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/Wallpapers/tim-barton-triumph4k.jpg
+exec --no-startup-id sleep 1 && feh --bg-fill ~/dotfiles/Wallpapers/3squares.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -598,7 +598,7 @@ bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun \
 ## rofi bindings for window menu ($mod+t /F10 optional disabled)
 
 bindsym $mod+Tab exec --no-startup-id rofi -show window \
-		-config ~/.config/rofi/rofidmenu.rasi
+		-config ~/dotfiles/rofi/rofiappmenu.rasi
 
 #bindsym F10 exec --no-startup-id rofi -show window \
 #		-config ~/.config/rofi/rofidmenu.rasi

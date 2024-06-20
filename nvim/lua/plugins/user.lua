@@ -108,4 +108,11 @@ return {
       day_brightness = 0.2,
     },
   },
+  {
+    "loctvl842/monokai-pro.nvim",
+    opts = {
+      filter = "machine",
+      transparent_background = true,
+    },
+  },
 }

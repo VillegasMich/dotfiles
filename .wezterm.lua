@@ -7,10 +7,10 @@ local config = {
 	enable_tab_bar = false,
 	window_background_opacity = 0.95,
 	default_cursor_style = "SteadyUnderline",
+	font_size = 14,
+	font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Regular" }),
+	color_scheme = "Sonokai (Gogh)",
 }
-
-config.font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Regular" })
-config.font_size = 14
 
 -- wezterm.gui is not available to the mux server, so take care to
 -- do something reasonable when this config is evaluated by the mux
@@ -41,9 +41,7 @@ config.font_size = 14
 -- 	end
 -- end
 
-config.color_scheme = "Tokyo Night Moon"
 config.keys = {
-	-- This will create a new split and run your default program inside it
 	{
 		key = "?",
 		mods = "CTRL|SHIFT",

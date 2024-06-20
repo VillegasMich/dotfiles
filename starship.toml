@@ -212,15 +212,15 @@ format = '\[[$time]($style)\]'
 [username]
 # format = '\[[@](purple)$user($style)\] '
 # style_user = 'bold white'
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
+style_user = "bg:#967bc6"
+style_root = "bg:#967bc6"
 # style_root = 'bold black'
 disabled = false
 show_always = true
 format = """
-[](#9A348E)\
+[](#967bc6)\
 [ $user ]($style)\
-[ ](fg:#9A348E)\
+[ ](fg:#967bc6)\
 """
 
 [vagrant]
