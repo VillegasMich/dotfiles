@@ -2,29 +2,29 @@
 
 
 [character]
-success_symbol = '[δ](bold green) '
-error_symbol = '[δ](bold red) '
+success_symbol = '[::](bold green) '
+error_symbol = '[::](bold red) '
 
-[battery]
-full_symbol = '🔋'
-charging_symbol = '🔌'
-discharging_symbol = '🔋'
-
-[[battery.display]]
-threshold = 20
-style = 'bold red'
-charging_symbol = '🔌'
-discharging_symbol = '🪫'
-
-[[battery.display]]
-threshold = 50
-style = 'bold yellow'
-charging_symbol = '🔌'
-
-[[battery.display]]
-threshold = 100
-style = 'bold green'
-charging_symbol = '🔌'
+# [battery]
+# full_symbol = '🔋'
+# charging_symbol = '🔌'
+# discharging_symbol = '🔋'
+#
+# [[battery.display]]
+# threshold = 20
+# style = 'bold red'
+# charging_symbol = '🔌'
+# discharging_symbol = '🪫'
+#
+# [[battery.display]]
+# threshold = 50
+# style = 'bold yellow'
+# charging_symbol = '🔌'
+#
+# [[battery.display]]
+# threshold = 100
+# style = 'bold green'
+# charging_symbol = '🔌'
 
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
@@ -212,16 +212,21 @@ format = '\[[$time]($style)\]'
 [username]
 # format = '\[[@](purple)$user($style)\] '
 # style_user = 'bold white'
-style_user = "bg:#967bc6"
-style_root = "bg:#967bc6"
+style_user = "bg:#9e86c8"
+style_root = "bg:#9e86c8"
 # style_root = 'bold black'
 disabled = false
 show_always = true
 format = """
-[](#967bc6)\
-[ $user ]($style)\
-[ ](fg:#967bc6)\
-"""
+[](#9e86c8)\
+[](#b05279)\
+[](#e87d3e)\
+[ ](#6c99bb)\
+""" # format = """
+# [](#9e86c8)\
+# [ $user ]($style)\
+# [ ](fg:#9e86c8)\
+# """
 
 [vagrant]
 format = '\[[$symbol($version)]($style)\]'

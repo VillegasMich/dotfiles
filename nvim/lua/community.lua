@@ -15,7 +15,8 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
-  { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.rose-pine" },
   -- import/override with your plugins folder
 }

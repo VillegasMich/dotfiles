@@ -23,17 +23,6 @@ return {
     opts = function(_, opts)
       -- customize the dashboard header
       opts.section.header.val = {
-        -- " █████  ███████ ████████ ██████   ██████",
-        -- "██   ██ ██         ██    ██   ██ ██    ██",
-        -- "███████ ███████    ██    ██████  ██    ██",
-        -- "██   ██      ██    ██    ██   ██ ██    ██",
-        -- "██   ██ ███████    ██    ██   ██  ██████",
-        -- " ",
-        -- "    ███    ██ ██    ██ ██ ███    ███",
-        -- "    ████   ██ ██    ██ ██ ████  ████",
-        -- "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
-        -- "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-        -- "    ██   ████   ████   ██ ██      ██",
         "███▄▄▄▄      ▄████████  ▄██████▄   ▄█    █▄   ▄█    ▄▄▄▄███▄▄▄▄   ",
         "███▀▀▀██▄   ███    ███ ███    ███ ███    ███ ███  ▄██▀▀▀███▀▀▀██▄ ",
         "███   ███   ███    █▀  ███    ███ ███    ███ ███▌ ███   ███   ███ ",
@@ -102,17 +91,16 @@ return {
     },
   },
   {
-    "folke/tokyonight.nvim",
-    opts = {
-      transparent = false,
-      day_brightness = 0.2,
-    },
-  },
-  {
     "loctvl842/monokai-pro.nvim",
     opts = {
-      filter = "machine",
+      filter = "pro",
+      -- terminal_colors = false,
       transparent_background = true,
+      background_clear = {
+        -- "nvim-tree",
+        -- "neo-tree",
+        "float_win",
+      },
     },
   },
 }

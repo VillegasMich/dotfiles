@@ -9,7 +9,7 @@ local config = {
 	default_cursor_style = "SteadyUnderline",
 	font_size = 14,
 	font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Regular" }),
-	color_scheme = "Sonokai (Gogh)",
+	color_scheme = "Catppuccin Macchiato",
 }
 
 -- wezterm.gui is not available to the mux server, so take care to

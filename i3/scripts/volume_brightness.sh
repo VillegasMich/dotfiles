@@ -4,7 +4,7 @@
 # taken from here: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator
 
 # See README.md for usage instructions
-bar_color="#7f7fff"
+bar_color="#c6a0f6"
 volume_step=3
 brightness_step=2.5
 max_volume=100
@@ -29,11 +29,11 @@ function get_volume_icon {
 	volume=$(get_volume)
 	mute=$(get_mute)
 	if [ "$volume" -eq 0 ] || [ "$mute" == "yes" ]; then
-		volume_icon=""
+		volume_icon=" "
 	elif [ "$volume" -lt 50 ]; then
-		volume_icon=""
+		volume_icon=" "
 	else
-		volume_icon=""
+		volume_icon=" "
 	fi
 }
 
