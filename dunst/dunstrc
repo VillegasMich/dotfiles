@@ -194,7 +194,8 @@
     min_icon_size = 0
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 32
+    # max_icon_size = 32
+    max_icon_size = 64
 
     # Paths to default icons.
     #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
@@ -312,8 +313,8 @@
 
 [urgency_critical]
     backfound = "#ed8796"
-    foreground = "#ffffff"
     frame_color = "#ed8796"
+    foreground = "#ffffff"
     timeout = 120
     # Icon for notifications with critical urgency, uncomment to enable
     icon = /usr/share/icons/Arc-X-D/status/16/dialog-warning.png
