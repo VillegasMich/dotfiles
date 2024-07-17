@@ -21,7 +21,7 @@ local config = {
 -- 	end
 -- 	return "Dark"
 -- end
---
+
 -- function scheme_for_appearance(appearance)
 -- 	if appearance:find("Dark") then
 -- 		return "iTerm2 Default"
@@ -29,17 +29,17 @@ local config = {
 -- 		return "Atelier Seaside Light (base16)"
 -- 	end
 -- end
+function scheme_for_appearance()
+	if wezterm.color_scheme == "Catppuccin Macchiato" then
+		print(wezterm.color_scheme)
+		config.color_scheme = "Catppuccin Latte"
+	else
+		config.color_scheme = "Catppuccin Macchiato"
+	end
+end
+
 --
 -- config.color_scheme = scheme_for_appearance(get_appearance())
--- and finally, return the configuration to wezterm
-
--- function scheme_for_appearance()
--- 	if config.color_scheme == "iTerm2 Default" then
--- 		config.color_scheme = "Atelier Seaside Light (base16)"
--- 	else
--- 		config.color_scheme = "iTerm2 Default"
--- 	end
--- end
 
 config.keys = {
 	{
@@ -56,6 +56,13 @@ config.keys = {
 		key = "p",
 		mods = "CTRL|SHIFT",
 		action = wezterm.action.ActivateCommandPalette,
+	},
+	{
+		key = "b",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action_callback(function()
+			scheme_for_appearance()
+		end),
 	},
 }
 

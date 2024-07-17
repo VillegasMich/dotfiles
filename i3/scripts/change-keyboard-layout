@@ -1,4 +1,4 @@
-chosen_layout=$(echo -e "us\nes" | dmenu -i -p "Select keyboard layout")
+chosen_layout=$(echo -e "us\nes" | rofi -i -dmenu -p "Select Keyboard " -l 2 -config ~/dotfiles/rofi/keyboard-selector.rasi)
 
 # Check for "us" OR "es" layout
 if [ "$chosen_layout" == "us" ] || [ "$chosen_layout" == "es" ]; then
