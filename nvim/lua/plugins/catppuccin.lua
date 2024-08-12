@@ -4,7 +4,8 @@ return {
     name = "catppuccin",
     ---@type CatppuccinOptions
     opts = {
-      transparent_background = true,
+      transparent_background = false,
+      terminal = false,
       integrations = {
         alpha = true,
         aerial = true,

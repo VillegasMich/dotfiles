@@ -1,5 +1,12 @@
 # ~/.config/starship.toml
 
+# format = """
+# [╭─user───❯](bold blue) $username
+# [┣─system─❯](bold yellow) $hostname
+# [┣─project❯](bold red) $directory$rust$git_branch$git_status$package$golang$terraform$docker_context$python$docker_context$nodejs
+# [╰─cmd────❯](bold green) 
+# """
+
 
 [character]
 success_symbol = '[::](bold green) '
@@ -218,10 +225,10 @@ style_root = "bg:#9e86c8"
 disabled = false
 show_always = true
 format = """
-[](#9e86c8)\
-[](#b05279)\
-[](#e87d3e)\
-[ ](#6c99bb)\
+[](#8839ef)\
+[](#e64553)\
+[](#df8e1d)\
+[ ](#209fb5)\
 """ # format = """
 # [](#9e86c8)\
 # [ $user ]($style)\
