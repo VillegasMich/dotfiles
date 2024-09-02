@@ -307,7 +307,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym $mod+p exec ~/dotfiles/i3/scripts/manage-monitors.sh
 
 ## App shortcuts
-bindsym $mod+w exec --no-startup-id /usr/bin/brave
+bindsym $mod+w exec --no-startup-id /usr/bin/zen-browser
 # bindsym $mod+n exec --no-startup-id /usr/bin/thunar
 bindsym $mod+n exec --no-startup-id wezterm -e yazi
 bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/Screenshots/$(date +"%Y-%m-%d-%T")-screenshot.png"
@@ -482,6 +482,7 @@ exec --no-startup-id nm-applet
 ##################
 
 # set floating (nontiling) for apps needing it
+for_window [class="KarelParalelismo" instance="KarelParalelismo"] floating enable
 for_window [class="Yad" instance="yad"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable

@@ -5,7 +5,7 @@ local wezterm = require("wezterm")
 local config = {
 	use_fancy_tab_bar = false,
 	enable_tab_bar = false,
-	window_background_opacity = 0.97,
+	window_background_opacity = 1,
 	default_cursor_style = "SteadyUnderline",
 	font_size = 14,
 	font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Regular" }),
