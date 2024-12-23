@@ -5,11 +5,13 @@ local wezterm = require("wezterm")
 local config = {
 	use_fancy_tab_bar = false,
 	enable_tab_bar = false,
-	window_background_opacity = 1,
+	window_background_opacity = 0.95,
 	default_cursor_style = "SteadyUnderline",
 	font_size = 14,
 	font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Regular" }),
-	color_scheme = "Catppuccin Macchiato",
+	-- color_scheme = "Catppuccin Mocha",
+	-- color_scheme = "carbonfox",
+	-- color_scheme = "Argonaut (Gogh)",
 }
 
 -- wezterm.gui is not available to the mux server, so take care to

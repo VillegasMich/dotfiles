@@ -8,13 +8,14 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.markdown" },
-  -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
-  -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
 }

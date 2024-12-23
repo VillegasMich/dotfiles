@@ -56,8 +56,8 @@ new_window pixel 1
 
 
 # Set inner/outer gaps
-gaps inner 6
-gaps outer 3
+gaps inner 5
+gaps outer 0
 
 # show window title bars (not officially supported with i3gaps)
 # default_border pixel 4
@@ -425,7 +425,7 @@ exec --no-startup-id dex --autostart --environment i3
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 # exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/eos_wallpapers_community/endeavour_os_simple_wallpaper_dark.png
-exec_always --no-startup-id sleep 1 && feh --bg-fill ~/dotfiles/Wallpapers/wallhaven-p913ep_1920x1080.png
+exec_always --no-startup-id sleep 1 && feh --bg-fill ~/dotfiles/Wallpapers/Razer-Sensa-THS-Chroma_Wallpaper_3840x2400.jpg
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -482,7 +482,7 @@ exec --no-startup-id nm-applet
 ##################
 
 # set floating (nontiling) for apps needing it
-for_window [class="KarelParalelismo" instance="KarelParalelismo"] floating enable
+for_window [class="ConcurrentKarel" instance="ConcurrentKarel"] floating enable
 for_window [class="Yad" instance="yad"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
