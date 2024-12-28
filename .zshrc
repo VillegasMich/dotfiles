@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias le="exa -l -a --icons --group-directories-first"
-alias emoji="jome"
 eval "$(starship init zsh)"
 
 export NVM_DIR="$HOME/.nvm"
@@ -113,7 +112,10 @@ export NVM_DIR="$HOME/.nvm"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

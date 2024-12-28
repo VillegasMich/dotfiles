@@ -1,0 +1,29 @@
+# FONT
+font-family = FiraCode Nerd Font Mono
+font-family-bold = FiraCode Nerd Font Mono Bold
+font-family-italic = FiraCode Nerd Font Mono Italic
+font-size = 14
+
+# THEME
+background = 000000
+theme = Apple System Colors
+background-opacity = 0.95
+bold-is-bright = true
+
+# CURSOR
+cursor-color = #3AE52C
+shell-integration-features = no-cursor
+cursor-style = underline
+
+# SYSTEM
+gtk-titlebar = false
+desktop-notifications = true
+
+# KEYBINFINGS
+
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+o=toggle_tab_overview
+# keybind = ctrl+shift+\=new_split
+# keybind = ctrl+shift+/=new_split
+
+
