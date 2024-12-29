@@ -34,7 +34,7 @@ bindsym $mod+Return exec ghostty
 bindsym $mod+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id ~/dotfiles/rofi/launchers/type-4/launcher.sh
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -44,7 +44,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+bindsym $mod+Ctrl+m exec ghostty -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -67,7 +67,7 @@ bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-bindsym $mod+Shift+x --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Shift+x exec --no-startup-id ~/dotfiles/rofi/applets/bin/screenshot.sh
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
@@ -229,7 +229,8 @@ bindsym $mod+Shift+r restart
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Set shut down, restart and locking features
-bindsym $mod+Shift+e mode "$mode_system"
+# bindsym $mod+Shift+e mode "$mode_system"
+bindsym $mod+Shift+e exec --no-startup-id ~/dotfiles/rofi/powermenu/type-2/powermenu.sh
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id i3exit lock, mode "default"
@@ -281,6 +282,7 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec --no-startup-id caffeine-indicator
+exec --no-startup-id optimus-manager-qt
 exec_always --no-startup-id blueman-applet
 # exec_always --no-startup-id blueman-tray
 # exec_always --no-startup-id sbxkb
