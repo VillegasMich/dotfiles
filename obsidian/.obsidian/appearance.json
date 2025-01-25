@@ -3,5 +3,6 @@
   "accentColor": "#37e14b",
   "cssTheme": "Catppuccin",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono"
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "baseFontSize": 20
 }

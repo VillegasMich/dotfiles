@@ -119,3 +119,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
