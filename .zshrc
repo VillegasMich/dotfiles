@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias le="exa -l -a --icons --group-directories-first"
 eval "$(starship init zsh)"
 
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -120,3 +121,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/manuelvm/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+eval "$(zoxide init zsh)"

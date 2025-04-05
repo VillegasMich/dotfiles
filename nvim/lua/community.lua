@@ -5,6 +5,8 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+
+  -- Pack
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.php" },
@@ -15,14 +17,26 @@ return {
   -- { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.yaml" },
+
+  -- Editing
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+
+  -- Colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
+
+  -- Motion
   { import = "astrocommunity.motion.mini-surround" },
+
+  -- Completion
   { import = "astrocommunity.completion.avante-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.completion.copilot-cmp" },

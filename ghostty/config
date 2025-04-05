@@ -6,7 +6,8 @@ font-size = 14
 # THEME
 background = 000000
 theme = Apple System Colors
-background-opacity = 0.95
+# theme = catppuccin-mocha
+background-opacity = 0.93
 bold-is-bright = true
 
 # CURSOR
@@ -19,7 +20,6 @@ gtk-titlebar = false
 desktop-notifications = true
 
 # KEYBINFINGS
-
 keybind = ctrl+shift+t=new_tab
 keybind = ctrl+shift+o=toggle_tab_overview
 # keybind = ctrl+shift+\=new_split

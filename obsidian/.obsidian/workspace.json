@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "d5c68273dd182cdb",
+        "id": "91537051facd78e7",
         "type": "tabs",
         "children": [
           {
-            "id": "ce51fb4cd5454f68",
+            "id": "984e58f63c17a400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIngSoftware/Internet Bookstore.md",
+                "file": "TIngSoftware/Tutorial 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internet Bookstore"
+              "title": "Tutorial 01"
+            }
+          },
+          {
+            "id": "3a58c70fb03a603d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3c2106144b803d6f",
@@ -155,7 +170,8 @@
               "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,24 +185,56 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ce51fb4cd5454f68",
+  "active": "3a58c70fb03a603d",
   "lastOpenFiles": [
-    "IntroIA/Contenidos.md",
-    "TIngSoftware/Internet Bookstore.md",
-    "IntroIA/attachments/Pasted image 20250125111352.png",
-    "IntroIA/attachments",
-    "TIngSoftware/Contenidos.md",
-    "TIngSoftware/attachments/IMG_2713.jpg",
-    "TIngSoftware/attachments/IMG_2712.jpg",
-    "TIngSoftware/attachments/IMG_2712.heic",
-    "TIngSoftware/attachments",
-    "TSinfo/Notas - Technology Adoption Road map for Midsize Enterprises for 2025.md",
-    "TSinfo/technology-adoption-roadmap-for-midsize-enterprises.pdf",
-    "Books Raitings.md",
-    "About.md"
+    "TIngSoftware/Tutorial 01.md",
+    "ProyectoStartupRestaurante/Table StartUp.md",
+    "ProyectoStartupRestaurante",
+    "TIngSoftware/laravelcourse/Tutorial01/database/database.sqlite-journal",
+    "TIngSoftware/laravelcourse/README.md",
+    "TIngSoftware/laravelcourse/Tutorial01/storage/framework/views/80d1e5e0ed47b21ca01b64b3a08f668e.php",
+    "TIngSoftware/laravelcourse/Tutorial01/storage/framework/views/d39aa6b1f1780d99b0d393b294565c50.php",
+    "TIngSoftware/laravelcourse/Tutorial01/vite.config.js",
+    "TIngSoftware/laravelcourse/Tutorial01/tailwind.config.js",
+    "TIngSoftware/laravelcourse/Tutorial01/README.md",
+    "TIngSoftware/laravelcourse/Tutorial01/postcss.config.js",
+    "TIngSoftware/laravelcourse/Tutorial01/phpunit.xml",
+    "TIngSoftware/laravelcourse/Tutorial01/package.json",
+    "TIngSoftware/laravelcourse/Tutorial01/composer.lock",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/icons/file-directory.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/icons/file-code.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/symfony-logo.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-support.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-plus-square.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-plus-square-o.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-minus-square.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-minus-square-o.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-copy.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/symfony/error-handler/Resources/assets/images/icon-book.svg",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/View/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Validation/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Translation/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Testing/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Support/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Session/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Routing/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Queue/README.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Queue/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Redis/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Process/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Pipeline/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Pagination/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Notifications/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Mail/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Macroable/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Log/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Http/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Hashing/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Filesystem/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Events/LICENSE.md",
+    "TIngSoftware/laravelcourse/Tutorial01/vendor/laravel/framework/src/Illuminate/Encryption/LICENSE.md"
   ]
 }
