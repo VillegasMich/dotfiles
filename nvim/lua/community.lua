@@ -25,9 +25,12 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.terraform" },
 
   -- Editing
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+  { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
   -- Colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },
@@ -38,6 +41,8 @@ return {
   -- Completion
   { import = "astrocommunity.completion.avante-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua" },
-  -- { import = "astrocommunity.completion.copilot-cmp" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-cmp" },
+
+  -- Bars and Lines
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
 }

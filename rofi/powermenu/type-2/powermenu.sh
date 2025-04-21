@@ -96,8 +96,8 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
+		if [[ -x '/usr/bin/xautolock' ]]; then
+			xautolock -locker blurlock -locknow
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi

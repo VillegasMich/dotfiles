@@ -14,7 +14,7 @@ return {
       lib.component.tabline_tabpages(),
     }
 
-    -- opts.winbar = nil
+    opts.winbar = nil
 
     lib.init.subscribe_to_events()
     heirline.load_colors(lib.hl.get_colors())

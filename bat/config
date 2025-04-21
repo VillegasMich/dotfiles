@@ -2,3 +2,4 @@
 
 # Show line numbers, Git modifications and file header (but no grid)
 --style="changes,header"
+--wrap=never
