@@ -18,7 +18,6 @@ return {
   -- { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.markdown" },
-  -- { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
@@ -31,6 +30,10 @@ return {
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+  -- Notes
+  { import = "astrocommunity.note-taking.global-note-nvim" },
 
   -- Colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },

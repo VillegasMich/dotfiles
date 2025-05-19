@@ -220,7 +220,8 @@ for_window [title="SimpleScreenRecorder"] floating enable
 
 for_window [class="GStreamer"] floating enable resize set 1280 720
 for_window [title="gst-launch-1.0"] floating enable resize set 1280 720
-
+for_window [class="Viewnior"] floating enable resize set 1280 720
+for_window [class="gstreamer-rust-tut"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
