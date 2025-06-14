@@ -10,13 +10,13 @@ return {
   -- Pack
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.pack.php" },
-  { import = "astrocommunity.pack.blade" },
-  { import = "astrocommunity.pack.laravel" },
-  { import = "astrocommunity.pack.scala" },
+  -- { import = "astrocommunity.pack.php" },
+  -- { import = "astrocommunity.pack.blade" },
+  -- { import = "astrocommunity.pack.laravel" },
+  -- { import = "astrocommunity.pack.scala" },
   { import = "astrocommunity.pack.html-css" },
   -- { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.full-dadbod" },
+  -- { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.rust" },
@@ -24,7 +24,7 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.terraform" },
+  -- { import = "astrocommunity.pack.terraform" },
 
   -- Editing
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
@@ -33,7 +33,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 
   -- Notes
-  { import = "astrocommunity.note-taking.global-note-nvim" },
+  -- { import = "astrocommunity.note-taking.global-note-nvim" },
 
   -- Colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },
@@ -48,4 +48,7 @@ return {
 
   -- Bars and Lines
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+
+  -- Game
+  { import = "astrocommunity.game.leetcode-nvim" },
 }
